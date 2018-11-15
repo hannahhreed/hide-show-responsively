@@ -33,11 +33,23 @@ img {
   }
 
   img:nth-child(2) {
-    display: none;
+    display: inline-block;
   }
 
   img:nth-child(4) {
-    display: none;
+    display: inline-block;
+  }
+
+  img:first-child, img:nth-child(2) {
+    display: inline-block;
+  }
+
+  img:first-child, img:nth-child(4) {
+    display: inline-block;
+}
+
+  img {
+    width: 49%;
   }
 
 }
@@ -54,13 +66,13 @@ img {
     margin-bottom: 1.4rem;
   }
 
-  img:first-child, img:nth-child(2) {
-    display: inline-block;
+  img:first-child {
+    display: none;
   }
 
-  img:first-child, img:nth-child(4) {
-    display: inline-block;
-}
+  img {
+    width: 32%;
+  }
 
 @media only screen and (min-width: 60em) {
 
@@ -74,8 +86,12 @@ img {
     margin: 0 0 1.5rem;
   }
 
-  img {
+  img:first-child {
+    display: inline-block;
+  }
 
+  img {
+  width: 24%;
   }
 
 }
