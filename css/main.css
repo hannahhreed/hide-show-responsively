@@ -32,8 +32,12 @@ img {
     margin: 0 0 1.3rem;
   }
 
-  img {
-    width:
+  img:nth-child(2) {
+    display: none;
+  }
+
+  img:nth-child(4) {
+    display: none;
   }
 
 }
@@ -50,10 +54,12 @@ img {
     margin-bottom: 1.4rem;
   }
 
-  img {
-
+  img:first-child, img:nth-child(2) {
+    display: inline-block;
   }
 
+  img:first-child, img:nth-child(4) {
+    display: inline-block;
 }
 
 @media only screen and (min-width: 60em) {
