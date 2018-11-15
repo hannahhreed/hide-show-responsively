@@ -85,6 +85,8 @@ img:nth-child(4) {
     width: 32%;
   }
 
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
