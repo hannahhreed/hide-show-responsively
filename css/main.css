@@ -53,7 +53,7 @@ img:nth-child(4) {
 
   img:first-child, img:nth-child(4) {
     display: inline-block;
-}
+  }
 
   img {
     width: 49%;
