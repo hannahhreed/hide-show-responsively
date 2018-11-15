@@ -17,8 +17,15 @@ html {
 }
 
 img {
-  display: inline-block;
   width: 100%
+}
+
+img:nth-child(2) {
+  display: none;
+}
+
+img:nth-child(4) {
+  display: none;
 }
 
 @media only screen and (min-width: 25em) {
